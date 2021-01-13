@@ -1,4 +1,4 @@
-# cbc-mac.rb
+# CBC-MAC cookies
 
 1. Exploiting the signature of non fixed size messages with CBC-MAC
 
