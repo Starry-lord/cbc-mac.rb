@@ -22,3 +22,4 @@ new_iv = URI.escape(Base64.strict_encode64(decoded_iv),"+=/")
 new_auth = URI.escape(Base64.strict_encode64(decoded_auth), "+=/")
 
 puts "curl -H 'Cookie: iv=#{new_iv}; auth=#{new_auth}' http://yourtarget"
+
