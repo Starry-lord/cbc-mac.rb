@@ -1,8 +1,8 @@
 ## CBC-MAC II ##
 # when you have control over the cookie IV - base64
 
-iv="Base64andUrlEncodedIV" #change this
-auth="Base64andUrlEncodedAUTH" #change this
+iv="" #change this
+auth="" #change this
 
 require 'uri'
 require 'base64'
