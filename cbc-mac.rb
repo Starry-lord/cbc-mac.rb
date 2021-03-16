@@ -4,6 +4,7 @@
 # 
 # 8 first bytes wanted (ex: administ)
 #                       YWRtaW5pc3QtLcUGktACaz2R
+#			flag?
 require 'httparty'
 require 'base64'
 URL = "http://yourtarget" #change this
